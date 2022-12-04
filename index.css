@@ -13,7 +13,7 @@ h1{
      
     text-align: center;
 }
-#search{
+.search{
     padding: 1%;
     font-size: medium;
     border-radius: 20px;
@@ -39,4 +39,8 @@ p{
 }
 .contact{
     margin-left: 3%;
+}
+#button{
+    border-radius:30px;
+    padding: 1%;
 }
