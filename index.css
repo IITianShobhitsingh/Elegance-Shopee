@@ -13,17 +13,6 @@ h1{
 hr{
     border: black solid 1px;
 }
-.enter{
-     
-    text-align: center;
-}
-.search{
-    padding: 1%;
-    font-size: medium;
-    border-radius: 20px;
-    width: 30%;
-    
-}
 .contact{
     color: black;
     font-family: 'Nerko One';
@@ -45,37 +34,35 @@ hr{
 .contact{
     margin-left: 3%;
 }
-#button{
-    border-radius:30px;
-    padding: 1%;
-     
-}
-.items{
-    margin-top: 2%;
-    color: black;
-    display: inline-block;
-}
-.btn{
-    padding: 0.6%;
-    width: 8%;
-    background: white;
-    border-radius: 20px;
-}
-.btn:hover{
-     
-    background:linear-gradient();
-}
 h3{
     color: black;
     float:right;
     padding-top: 8%;
     font-size: x-large;
 }
-.self{
-    margin-left: 0%;
-    width:40% ;
+.main{
+    height:25%;
+    padding-left: 10%;
+    padding-top: 2%;
+    overflow: hidden;
 }
-ul{
-    list-style: none;
+#btn{
+    width: 10%;
+    height: 7%;
+    border: white solid 1px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
 }
- 
+#btn:hover{
+    color: black;
+    background: linear-gradient(to right, #a8ff78, #78ffd6);
+    cursor: pointer;
+}
+.bton{
+    text-align: center;
+    margin-top:3% ;
+    margin-bottom: 1%;
+}
