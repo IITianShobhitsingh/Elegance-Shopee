@@ -1,3 +1,7 @@
 body{
     background: black;
 }
+#loading{
+    text-align: center;
+    margin-top:5% ;
+}
