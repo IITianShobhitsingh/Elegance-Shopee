@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 body{
-    background: black;
+    background: linear-gradient(to right, #aacaef, #fde7f9);
 }
 h1{
-    color: white;
+    color:linear-gradient(to right, #fc00ff, #00dbde);
     font-family: 'Zen Dots';
     font-size:2.6rem;
     display: inline-block;
     margin-left: 21%;
+}
+hr{
+    border: black solid 1px;
 }
 .enter{
      
@@ -46,24 +49,25 @@ h1{
 }
 .items{
     margin-top: 2%;
-    color: white;
+    color: black;
     display: inline-block;
 }
 .btn{
     padding: 0.6%;
     width: 8%;
-    background: linear-gradient(to right, #9796f0, #fbc7d4);
+    background: white;
+    border-radius: 20px;
 }
 .btn:hover{
-    background: linear-gradient(to left, #9796f0, #fbc7d4);
-    cursor: pointer;
+     
+    background:linear-gradient();
 }
 .main{
     margin-top: 6%;
     margin-bottom: 5%;
 }
 h3{
-    color: white;
+    color: black;
     float:right;
     padding-top: 8%;
     font-size: x-large;
@@ -72,3 +76,14 @@ h3{
     margin-left: 0%;
     width:40% ;
 }
+li{
+     
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1%;
+    margin-right: 2%;
+}
+ul{
+    list-style: none;
+}
+ 
