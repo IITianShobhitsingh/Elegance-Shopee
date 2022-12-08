@@ -1,5 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*For navigation bar made by Gireeraj since Shobhit likes slacking*/
+a.navitems{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #78ffd6;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3%;
+    background-color: #24252A;
+}
+.logo{
+    cursor: pointer;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color: #0088a9;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    padding: 5px 10px 5px 20px;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    border: 0;
+    color: #FAF9F6;
+    font-family: "Montserrat", sans-serif;
+}
+::placeholder{
+    color: #FAF9F6;
+}
+.searchbar button img{
+    width: 25px;
+}
+.searchbar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #58629b;
+    cursor: pointer;
+}
+/* Navbar done*/
+
+/*new*/
+.infobannercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0vh;
+}
+.infobannercontainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infobanner1{
+    background-color: #0eb9bc5e;
+    height: 35vh;
+    width: 90vw;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.infobanner2{
+    background-color: #0eb9bc5e;
+    height: 30vh;
+    width: 44vw;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.infobanner3{
+    background-color: #0eb9bc5e;
+    height: 30vh;
+    width: 44vw;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
 body{
     background: #FAF9F6;
 }
@@ -14,25 +123,18 @@ hr{
     border: black solid 1px;
 }
 .contact{
-    color: black;
-    font-family: 'Nerko One';
+    color: #FAF9F6;
+    font-family: roboto;
     font-size: large;
+    margin: 1%;
+    
 }
 .end{
-    background: pink;
-    border: white solid 1px;
-    border-radius: 20px;
+    background: #24252A;
+    border: #24252A solid 1px;
+    
     margin-left: 0px;
     margin-right: 0px;
-}
-.luv{
-    margin-left: 42%;
-    font-family: 'Nerko One';
-    font-size: large;
-}
- 
-.contact{
-    margin-left: 3%;
 }
 h3{
     color: black;
