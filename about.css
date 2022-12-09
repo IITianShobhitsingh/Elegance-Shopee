@@ -1,3 +1,7 @@
+body{
+    background: url('bg_about.jpg');
+     
+}
 .giri{
     width: 40%;
     text-align: left;
@@ -8,6 +12,7 @@
     border-radius: 30px;
     transition: 0.7s;
     font-size: small;
+     
      
 }
 .giri:hover{
