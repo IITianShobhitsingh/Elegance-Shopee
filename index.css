@@ -71,7 +71,7 @@ body{
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
       #logo{
-        width: 60%;
+        width: 20%;
       }
     }
     
@@ -79,7 +79,7 @@ body{
     @media only screen
     and (min-width : 321px) {
       #logo{
-        width: 20%;
+        width: 60%;
       }
     }
     
