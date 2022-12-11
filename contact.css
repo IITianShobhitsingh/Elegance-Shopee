@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+#retail{
+    font-family:'Inconsolata',sans-serif ;
+}
+#do{
+    width: 100%;
+}
+.B{
+    text-align: right;
+    justify-content: center;
+    width:30% ;
+    margin-left: 50%;
+}
+.B:hover{
+    cursor: pointer;
+}
+body{
+    background: url('sapiens.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: left;    
+    block-size: inherit;
+}
