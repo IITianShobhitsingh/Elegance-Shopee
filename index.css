@@ -11,6 +11,9 @@ body{
     margin-bottom: 0%;
      
 }
+#logo{
+  width: 30%;
+}
 #btn{
     text-align: center;
     margin-top: 2%;
@@ -63,3 +66,45 @@ body{
 #retail{
   font-family:'Inconsolata',sans-serif ;
 }
+    /* Smartphones (portrait and landscape)  */
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+      #logo{
+        width: 60%;
+      }
+    }
+    
+    /* Smartphones (landscape)   */
+    @media only screen
+    and (min-width : 321px) {
+      #logo{
+        width: 20%;
+      }
+    }
+    
+    /* Smartphones (portrait)   */
+    @media only screen
+    and (max-width : 320px) {
+      #logo{
+        width: 60%;
+      }
+    }
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px) {
+      #logo{
+        width: 70%;
+      }
+    }
+
+    /* iPads (landscape) ----------- */
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape) {
+      #logo{
+        width: 70%;
+      }
+    }
