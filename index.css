@@ -1,7 +1,8 @@
 
 body{
-  background:url('v748-toon-111.jpg')
+  background:url('bg.jpg');
 }
+ 
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
