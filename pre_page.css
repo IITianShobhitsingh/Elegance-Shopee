@@ -19,16 +19,16 @@ body{
     
     /* Smartphones (landscape)   */
     @media only screen
-    and (min-width : 330px) {
+    and (min-width : 321px) {
       #load{
-        margin-top:65%;
+        margin-top:20%;
       }
     }
     
     /* Smartphones (portrait)   */
     @media only screen
-    and (max-width : 320px) {
+    and (max-width : 330px) {
       #load{
-        margin-top:20%;
+        margin-top:65%;
       }
     }
