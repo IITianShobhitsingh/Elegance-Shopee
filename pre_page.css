@@ -5,13 +5,30 @@ body{
     text-align: center;
     margin-top:5% ;
 }
-@media only screen and (min-width: 300) and (max-width: 500){
-    #loading{
-        margin-top: 30%;
-    }
+#load{
+    width: 40%;
 }
-@media only screen and (max-width: 800px){
-    #loading{
-        margin-top: 30%;
+    /* Smartphones (portrait and landscape)  */
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+      #load{
+        margin-top:65%;
+      }
     }
-}
+    
+    /* Smartphones (landscape)   */
+    @media only screen
+    and (min-width : 330px) {
+      #load{
+        margin-top:65%;
+      }
+    }
+    
+    /* Smartphones (portrait)   */
+    @media only screen
+    and (max-width : 320px) {
+      #load{
+        margin-top:20%;
+      }
+    }
