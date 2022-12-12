@@ -1,3 +1,3 @@
 window.setTimeout(function() {
     window.location.href = "main.html";
-}, 3000);
+}, 2000);
