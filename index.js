@@ -22,6 +22,17 @@
     location.href = 'https://juniper-mail-4e7.notion.site/0d2c3ac701cc4ff1893193c58954aacf?v=4a35ce12371f4b438a3a55dabaa82ca0';
  })
 
+
+ var min = document.querySelector('#min')
+ min.addEventListener('click',function(){
+    location.href = 'https://juniper-mail-4e7.notion.site/0d2c3ac701cc4ff1893193c58954aacf?v=bf840e5c618149d5995ec082eaebca3e';
+ })
+
+ var wow = document.querySelector('#wow')
+ wow.addEventListener('click',function(){
+   location.href='https://juniper-mail-4e7.notion.site/0d2c3ac701cc4ff1893193c58954aacf?v=6c6254ede88344e78f106404cd0f91de';
+ })
+
  var mamaearth = document.querySelector('#mama')
  mamaearth.addEventListener('click',function(){
     location.href = 'https://juniper-mail-4e7.notion.site/0d2c3ac701cc4ff1893193c58954aacf?v=5da8cf1d167247a7af24b3343f79b2f2';
@@ -37,6 +48,11 @@
     location.href = 'https://juniper-mail-4e7.notion.site/0d2c3ac701cc4ff1893193c58954aacf?v=1bfe35380d0144928edbb6832e8dbb0f';
  })
 
+ var sugar = document.querySelector('#sugar')
+ sugar.addEventListener('click',function(){
+   location.href='https://www.notion.so/0d2c3ac701cc4ff1893193c58954aacf?v=90b1723747d344b2a42da34337b0ec12';
+ })
+
  //for main pg of wonders
  var pg = document.querySelector('.button-30')
  pg.addEventListener('click',function(){
@@ -46,10 +62,6 @@
 
 
 
-
-
-
- /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
    var x = document.getElementById("myTopnav");
    if (x.className === "topnav") {
