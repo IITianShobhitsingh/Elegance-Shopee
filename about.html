@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -22,36 +21,33 @@
 <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elegance' Shopee</title>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-inverse navbar-expand-sm">
-        <button id="btn" type="button" data-toggle="collapse" data-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          menu
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" id="home" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown
+          <i class="fa fa-caret-down"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#" id="home">Home</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">BRANDS
-                    <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#" id="nykaa">NYKAA</a></li>
-                      <li><a href="#" id="mc">mCaffine</a></li>
-                      <li><a href="#" id="mama">Mamaearth</a></li>
-                      <li><a href="#" id="nivea">NIVEA</a></li>
-                    </ul>
-                  </li>
-                <li id="contact"><a href="#">CONTACT US</a></li>
-                <li id="about"><a href="#">ABOUT US</a></li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+        <div class="dropdown-content">
+          <a href="#" id="mama">MamaEarth</a>
+          <a href="#" id="mc">mCaffiene</a>
+          <a href="#" id="nivea">Nivea</a>
+          <a href="#" id="nykaa">Nykaa</a>
+          <a href="#" id="wow">WoW Skin Care</a>
+          <a href="#" id="sugar">Sugar</a>
+        </div>
+      </div>
+      <a href="#contact" id="contact">Contact Us</a>
+      <a href="#about" id="about">About Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
     <p id="girisho" align="center">
       <b>THIS STARTUP HAS BEEN STARTED BY TWO YOUNG ENTREPRENEURS NAMED SHOHBIT SINGH AND GIRIRAJ WAZIRE.</b>
     </p>
