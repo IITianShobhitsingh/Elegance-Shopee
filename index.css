@@ -143,6 +143,9 @@ body{
     right: 0;
     top: 0;
   }
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
   .topnav.responsive a {
     float: none;
     display: block;
