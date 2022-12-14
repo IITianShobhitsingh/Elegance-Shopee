@@ -120,6 +120,7 @@ body{
     .topnav a.active {
       background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
       color: white;
+      border-radius:15px;
     }
     
     /* Hide the link that should open and close the topnav on small screens */
