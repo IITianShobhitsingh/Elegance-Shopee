@@ -121,6 +121,7 @@ body{
       background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
       color: white;
       border-radius:15px;
+      margin: 0.1%;
     }
     
     /* Hide the link that should open and close the topnav on small screens */
@@ -133,6 +134,9 @@ body{
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  #logo{
+    width: 600px;
   }
 }
 
