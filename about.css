@@ -70,6 +70,8 @@
   .topnav a.active {
     background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
     color: white;
+    margin: 0.1%;
+    border-radius:15px;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -83,6 +85,7 @@
   float: right;
   display: block;
 }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
