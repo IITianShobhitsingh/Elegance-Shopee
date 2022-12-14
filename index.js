@@ -50,7 +50,7 @@
 
  var sugar = document.querySelector('#sugar')
  sugar.addEventListener('click',function(){
-   location.href='https://www.notion.so/0d2c3ac701cc4ff1893193c58954aacf?v=90b1723747d344b2a42da34337b0ec12';
+   location.href=' https://juniper-mail-4e7.notion.site/0d2c3ac701cc4ff1893193c58954aacf?v=90b1723747d344b2a42da34337b0ec12';
  })
 
  //for main pg of wonders
